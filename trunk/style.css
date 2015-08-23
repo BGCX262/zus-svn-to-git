@@ -1,0 +1,554 @@
+/*  
+Theme Name:Rovato
+Theme URI:http://www.rovato.org/
+Description:The Theme of rovato.org
+Version:1.0
+Author: Gighen
+Author URI: htt://staff.rovato.org
+
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+	
+*/
+
+/*Based on studieren-info http://studieren-info.de*/
+
+/* Begin Main-Layout */
+*{
+	margin:0;
+	padding:0
+}
+
+body {
+	background:#fff;
+	color:#333;
+	font-family: verdana, arial, sans-serif;
+	text-align:center;
+        font-size: 12px;
+
+}
+
+.page {
+	margin:0 auto;
+	text-align:left;
+	width:960px
+	}
+
+
+#header {
+	background:#FFF;
+	padding:10px;
+	margin: auto;
+	border-bottom: 2px solid #000;
+	width:950px;
+        margin-bottom: 5px;
+	}
+
+#headbar {
+	border: 1px solid #ddd;
+	background:#eee;
+	padding:0 0 0 0;
+	height: 20px;
+	margin: auto;
+	width:948px;
+	}
+
+
+#content {
+	background:#fff;
+	float:left;
+	width:470px;
+	border:0px solid #ddd;
+        margin: auto;
+	}
+
+#content2 {
+	background:#fff;
+        float:left;
+	width:260px;
+	margin: auto;
+	border:0px solid #ddd;
+	}
+
+#col-l {
+	float: left;
+        padding: 5px 5px 5px 5px;
+	margin:5px 5px 5px 5px;
+	width:170px;
+	border:1px solid #ccc;
+	}
+
+#sidebar-col {
+	float:left;
+        padding: 5px 5px 5px 5px;
+	margin:2px 5px 0px 0px;
+	width:130px;
+	border: 1px solid #ccc;
+	}	
+
+#sidebar1 {
+	float:left;
+	margin:0 0 0px 0px;
+	width:120px
+	}
+	
+#sidebar2 {
+	float:left;
+	border-left: 1px solid #ccc;
+	margin: 0 0 5px 5px;
+	width:300px;
+	}
+
+
+#video{
+        clear: both;
+	border:1px solid #ddd;
+	padding:5px 5px 5px 5px;
+	margin: 10px auto;
+ 	width: 450px;
+	text-align: center;
+	}
+
+#yellow-box-side{
+	border:1px solid #09f;
+	padding:3px 3px 3px 3px;
+	width: 290px;
+	margin: 5px auto;
+	}
+.orange-box-side{
+	border:1px solid #09f;
+	padding:3px 3px 3px 3px;
+	width: 290px;
+	margin:7px;
+	}
+
+#page-box{
+	border:1px solid #09f;
+	padding:5px;
+	margin: 20px;
+	}
+
+#page-box ul li {
+        list-style:none;
+	padding:1px 15px;
+	}
+
+.mlform{
+	padding-left:50px;
+	padding-right:50px;
+	}
+#green-box-side{
+	border:1px solid #09f;
+	padding:3px 3px 3px 3px;
+	width: 290px;
+	margin: 10px auto;
+	}
+
+.adv-side{
+	background: #fff;
+	padding:3px 3px 3px 3px;
+	width: 300px;
+	margin: 10px auto;
+	}
+
+#footer {
+        background: #eee;
+	clear:both;
+	position: relative;
+	text-align: center;
+	padding:10px;
+        border-top: 1px solid #ccc;
+        margin-top:20px;
+	}
+/* End Main-Layout */
+
+
+
+/* Begin Header */
+headbar h1 {
+	font-family: verdana, arial,sans-serif;
+        font-size: 10px;
+	}
+
+h1 {
+	font-family: verdana,arial,sans-serif;
+        font-size: 11px;
+	}
+	
+h1 a:link, h1 a:visited, h1 a:active, h1 a:hover{
+	text-decoration:none;
+	color:#fff
+	}
+
+.description {
+	color:#fff;
+	font-family: verdana,arial,sans-serif;
+        font-size: 11px;
+	}
+/* End Header */
+
+
+
+/* Begin Content*/
+h3,h4,h5,h6{
+	color:#059;
+	font-family: verdana,arial,sans-serif;
+        font-size: 13px;
+        text-decoration: underline;
+	font-weight: bold;
+	margin:10px 0 0 0;
+	}
+
+h2{
+	color:#059;
+	font-family: verdana,arial,sans-serif;
+        font-size: 18px;
+        text-alig: left;
+        text-decoration: none;
+	margin:0;
+}
+
+
+h3{
+	border-bottom:none
+	}
+
+h2 a:link, h2 a:visited, h2 a:active, h2 a:hover,
+h3 a:link, h3 a:visited, h3 a:active, h3 a:hover{
+	text-decoration:none;
+        color:#059;
+
+}
+
+.post {
+	text-align:justify;
+	padding:5px 5px;
+	}
+
+.postmetadata {
+	color:#555;
+	font-family: verdana,arial,sans-serif;
+        font-size: 9px;
+	padding:2px 0 0 0
+}
+
+.postmetadata a:link, .postmetadata a:visited, .postmetadata a:active{
+	color:#555;
+	text-decoration:none
+}
+
+.postmetadata a:hover{
+	text-decoration:underline
+}
+
+.entry, .entrytext{
+	line-height:140%;
+	margin:2px 0 0 0
+	}
+	
+.entrytext p{
+	margin:0 0 15px 0
+	}
+
+a:link,a:visited,a:active,a:hover{
+	color:#333;
+	text-decoration:underline
+}
+/* End Content*/
+
+
+
+/* Begin Comments */
+#commentform input, #commentform textarea {
+	font-size:12px;
+	padding:0px 10px
+	}
+	
+.commentlist li {
+	font-weight:bold;
+	background: #fefecc;
+        margin-bottom:5px;
+	}
+
+.commentlist cite, .commentlist cite a {
+	font-weight:bold;
+	font-style:normal;
+	font-family: verdana,arial,sans-serif;
+        font-size: 10px;
+	}
+
+.commentlist p {
+	font-weight:normal;
+/*	line-height:140%;*/
+	text-transform:none
+	}
+
+.commentmetadata {
+	font-weight:normal
+	}
+
+.commentlist {
+	padding:5px;
+	text-align:justify
+	}
+
+.commentlist li {
+	margin:0px 0 15px 16px;
+	padding:5px;
+	list-style:decimal
+	}
+
+.commentlist p {
+	margin:10px 5px 10px 0
+	}
+
+#commentform p {
+	margin:10px 10px
+	}
+
+.commentmetadata {
+	margin:0;
+	display:block
+	}
+/* End Comments */
+
+	
+
+/* Begin Lists */
+.entry ul, .entry ol,
+.entrytext ul, .entrytext ol{
+	margin:5px 0 5px 26px
+	}
+
+#sidebar2 ul.bor{
+       
+	}
+
+#sidebar1 ul li,#sidebar-col ul li,#video ul li,#sidebar2 ul li {
+         
+	list-style:none;
+	padding:1px 5px;
+	}
+
+
+
+
+#sidebar-col ul li, #col-l ul li{
+	list-style:none;
+	padding:1px 5px;
+	}
+
+#sidebar1 ul li ul li,
+#col-l ul li ul li,
+#video ul li ul li{list-style:none;
+	border-bottom:1px solid #ddd;
+	padding:1px 5px;}
+
+#sidebar2 ul li ul li{
+	list-style:square;
+	padding:1px 5px;
+        margin-left: 20px; 
+	}
+
+#sidebar-col ul li ul li{
+	list-style:none;
+	border-bottom:0px solid #ddd;
+	padding:1px 5px
+	}
+
+#video ul li ul li a:link, #video ul li ul li a:visited, #video ul li ul li a:active,
+#col-l ul li ul li a:link, #col-l ul li ul li a:visited, #col-l ul li ul li a:active,
+#sidebar1 ul li ul li a:link, #sidebar1 ul li ul li a:visited, #sidebar1 ul li ul li a:active,
+#sidebar2 ul li ul li a:link, #sidebar2 ul li ul li a:visited, #sidebar2 ul li ul li a:active{
+	text-decoration:none;
+	padding:1px 3px
+}
+
+#col-l ul li ul li a:link, #col-l ul li ul li a:visited, #col-l ul li ul li a:active,
+#sidebar-col ul li ul li a:link, #sidebar-col ul li ul li a:visited, #sidebar-col ul li ul li a:active{
+	text-decoration:none;
+	padding:1px 3px
+}
+
+#sidebar-col ul li ul li a:hover,
+#sidebar1 ul li ul li a:hover,
+#sidebar2 ul li ul li a:hover{
+	text-decoration:underline
+}
+/* End Entry Lists */
+
+
+
+/* Begin Images */
+/*p img {
+	padding:0;
+	max-width:100%;
+        float: left;
+	}*/
+
+div.post img, div.green-box-side img, div.orange-box-side img {
+	background:#fafbfc;
+	border:1px solid #b0b0b0;
+	margin:7px;
+	padding:5px;
+        /*float: right;*/
+}
+
+img.centered {
+	display:block;
+	margin-left:auto;
+	margin-right:auto
+	}
+	
+img.alignright {
+	padding:4px;
+	margin:0 0 2px 7px;
+	display:inline
+	}
+
+img.alignleft {
+	padding:4px;
+	margin:0 7px 2px 0;
+	display:inline
+	}
+
+.alignright {
+	float:right
+	}
+	
+.alignleft {
+	float:left
+	}
+
+.caption { 
+	margin: 5px; 
+	padding: 5px; 
+	border: solid 1px #E5E5FF; 
+	background: #E5F2FF; 
+	font-size:90%; 
+	color: black 
+	}
+/* End Images */
+
+
+
+/* Begin Form Elements */
+#searchform {
+	border: 1px solid #ddd;
+	background: #eee;
+	margin:3px 3px 3px 3px;
+	padding:5px 5px 5px 5px;
+	}
+
+#sidebar2 #searchform #s {
+	width:130px;
+	padding:2px
+	}
+
+#sidebar2 #searchsubmit {
+	padding:1px
+	}
+
+.entry form { 
+	text-align:center
+	}
+
+select {
+	width:130px
+	}
+
+#commentform input {
+	width:170px;
+	padding:3px;
+	margin:5px 5px 5px 5px;
+	}
+
+#commentform textarea {
+	width:100%;
+	padding:5px
+	}
+
+#commentform #submit {
+	margin:0;
+	float:right
+	}
+/* End Form Elements */
+
+
+
+
+/* Begin Various Tags & Classes */
+code {
+	font:1.1em 'Courier New', Courier, Fixed
+	}
+
+acronym, abbr, span.caps
+{
+	cursor:help;
+	font-family: verdana,arial,sans-serif;
+        font-size: 9px;
+	letter-spacing:.07em
+	}
+
+acronym, abbr {
+	border-bottom:1px dashed #333
+	}
+
+blockquote {
+	border-left:5px solid #333;
+	margin:15px 0 0 0;
+	padding:0 0 0 15px
+	}
+
+blockquote cite {
+	margin:5px 0 0;
+	display:block
+	}
+
+.center {
+	text-align:center
+	}
+
+hr {
+	clear:both;
+	display:none
+	}
+
+a img {
+	border:none
+	}
+
+.navigation {
+	display:block;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:60px
+	}
+/* End Various Tags & Classes*/
+
+/* Wheater plugin*/
+ .weather_info {
+     font-size: 0.0em;
+}
+
+
+/* Form per la ricerca */
+input,textarea,select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 3px;
+	}
+input.button {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+        font-weight: bold;
+	border: 1px solid #ccc;
+	background: #fff;
+	padding-left: 2px;
+	text-align: center;
+	height: 18px;
+	width: 50px;
+	}
